@@ -1,6 +1,6 @@
-# Cisco ISE Study Guide
+# One Week Study Plan - Cisco Identity Service Engine (ISE)
 
-## Day 1-2: Understanding Cisco ISE Basics
+## Day 1: Understanding Cisco ISE Basics
 
 ### Introduction to Cisco ISE
 
@@ -11,7 +11,7 @@
 - Understand the main components: Policy Service Node (PSN), Policy Administration Node (PAN), Monitoring and Troubleshooting Node (MnT).
 - Learn about personas: Administration, Policy, and Monitoring.
 
-## Day 3-4: Setting Up Your Lab Environment
+## Day 2: Setting Up Your Lab Environment
 
 ### Lab Setup
 
@@ -23,7 +23,7 @@
 - Install Cisco ISE on a virtual machine following Cisco's official installation guide.
 - Configure initial settings like IP addresses, passwords, and certificates.
 
-## Day 4-5: Identity and Authentication
+## Day 3: Identity and Authentication
 
 ### Identity Sources
 
@@ -35,7 +35,7 @@
 - Learn about authentication methods like EAP, MAB, and WebAuth.
 - Configure authentication policies to control user access.
 
-## Day 6-7: Network Access Policies
+## Day 4: Network Access Policies
 
 ### Creating Access Policies
 
@@ -47,7 +47,7 @@
 - Create a few simple policies to allow or deny access based on predefined conditions.
 - Test policies by connecting devices and users to the network.
 
-## Day7-8: Guest and BYOD Access
+## Day 5: Guest and BYOD Access
 
 ### Guest Access
 
@@ -59,7 +59,7 @@
 - Set up self-registration portals for personal devices.
 - Implement posture assessments to ensure devices meet security requirements.
 
-## Day 9-10: Integration and Troubleshooting
+## Day 6: Integration and Troubleshooting
 
 ### Integration with Network Devices
 
@@ -71,7 +71,7 @@
 - Explore the Monitoring and Troubleshooting Node (MnT) persona.
 - Learn to use logs and reports for basic troubleshooting and auditing.
 
-## Step Day 11-12: Advanced Concepts
+## Day 7: Advanced Concepts
 
 ### High Availability and Redundancy
 
