@@ -1,24 +1,94 @@
-# Cisco Identidy Services Engine (ISE)
+# Cisco ISE Study Guide
 
-## What is Cisco ISE
-- A security solution that helps organizations control and manage who can access their computer networks and resources. 
-- It acts like a gatekeeper, making sure only authorized users and devices can connect to the network while keeping out unauthorized ones. 
-- ISE checks the identity of users and devices, like laptops or smartphones, before allowing them to access the network. It enforces security policies and ensures that users and devices meet certain requirements, like having the right credentials or meeting security standards. 
-- In a nutshell, Cisco ISE helps maintain network security by controlling who gets in and what they can do once they're connected.
+## Day 1-2: Understanding Cisco ISE Basics
 
-## How it works 
-Cisco Identity Services Engine (ISE) is a powerful tool that helps ensure the security and integrity of computer networks. As a network engineer, understanding how ISE works is crucial for implementing effective network access control and maintaining a secure environment. At its core, Cisco ISE acts as a gatekeeper for your network, deciding who can access it and under what conditions. Here's a simplified breakdown of how it works:
+### Introduction to Cisco ISE
 
-- Identity Verification: When a user or device wants to connect to the network, ISE first verifies their identity. This is done by asking for credentials like usernames and passwords, or by using other methods like digital certificates or even biometric information.
+- Learn the purpose and benefits of Cisco Identity Services Engine (ISE) in network security and access control.
 
-- Device Profiling: ISE examines the connecting device to understand its type, operating system, and security status. This helps ISE determine whether the device meets the security requirements set by the organization. For example, it can identify whether the device is a laptop, smartphone, printer, etc.
+### Components and Architecture
 
-- Policy Enforcement: Based on the user's identity and the device's profile, ISE enforces network access policies. These policies define what actions are allowed or denied. For instance, a policy might specify that only employees with certain roles can access sensitive data, or that only devices with up-to-date antivirus software can connect.
+- Understand the main components: Policy Service Node (PSN), Policy Administration Node (PAN), Monitoring and Troubleshooting Node (MnT).
+- Learn about personas: Administration, Policy, and Monitoring.
 
-- Authentication and Authorization: ISE checks the user's credentials to authenticate them and then evaluates whether they are authorized to access the requested resources. Authentication confirms the user's identity, while authorization determines what they are allowed to do once connected.
+## Day 3-4: Setting Up Your Lab Environment
 
-- Integration with Network Devices: ISE communicates with network devices like switches, routers, and wireless access points. When a device connects to the network, ISE communicates with it to apply the appropriate access policies. If the device and user meet the criteria, access is granted. If not, access is denied or restricted.
+### Lab Setup
 
-- Monitoring and Reporting: ISE continuously monitors network activity. It can detect suspicious behavior or policy violations and take action accordingly. It also generates reports and logs that network administrators can use to track access, troubleshoot issues, and demonstrate compliance.
+- Create a virtualized lab environment using platforms like VMware or VirtualBox.
+- Set up virtual machines for Cisco ISE, network devices, and client systems.
 
-In summary, Cisco ISE is like a security guard for your network. It checks who's trying to enter, verifies their identity and device, ensures they follow the rules, and keeps a watchful eye on what's happening. This helps organizations maintain a secure network environment by allowing authorized users and devices while keeping out potential threats. As a network engineer, your role involves configuring and managing ISE to align with your organization's security policies and network requirements.
+### Installing and Configuring ISE
+
+- Install Cisco ISE on a virtual machine following Cisco's official installation guide.
+- Configure initial settings like IP addresses, passwords, and certificates.
+
+## Day 4-5: Identity and Authentication
+
+### Identity Sources
+
+- Configure identity sources like Active Directory, LDAP, or internal identity stores.
+- Understand the order of authentication when users and devices connect.
+
+### Authentication Methods
+
+- Learn about authentication methods like EAP, MAB, and WebAuth.
+- Configure authentication policies to control user access.
+
+## Day 6-7: Network Access Policies
+
+### Creating Access Policies
+
+- Define basic authorization policies to control network access based on user roles and attributes.
+- Familiarize yourself with policy conditions, results, and rules.
+
+### Testing Policies
+
+- Create a few simple policies to allow or deny access based on predefined conditions.
+- Test policies by connecting devices and users to the network.
+
+## Day7-8: Guest and BYOD Access
+
+### Guest Access
+
+- Configure guest access portals and workflows for visitors.
+- Understand the guest user journey and authentication methods.
+
+### BYOD (Bring Your Own Device)
+
+- Set up self-registration portals for personal devices.
+- Implement posture assessments to ensure devices meet security requirements.
+
+## Day 9-10: Integration and Troubleshooting
+
+### Integration with Network Devices
+
+- Integrate Cisco ISE with network devices (switches, routers, wireless controllers) using RADIUS or TACACS+.
+- Configure network device settings to communicate with ISE.
+
+### Monitoring and Troubleshooting
+
+- Explore the Monitoring and Troubleshooting Node (MnT) persona.
+- Learn to use logs and reports for basic troubleshooting and auditing.
+
+## Step Day 11-12: Advanced Concepts
+
+### High Availability and Redundancy
+
+- Learn about High Availability (HA) options in Cisco ISE.
+- Set up redundant ISE nodes for failover scenarios.
+
+### Security Best Practices
+
+- Familiarize yourself with security best practices for deploying ISE.
+- Implement secure communication, proper hardening, and regular updates.
+
+## Further Learning and Resources
+
+### Documentation and Training
+
+- Explore Cisco's official documentation for in-depth information on specific topics.
+- Consider enrolling in Cisco training courses or certification programs related to ISE.
+
+
+By following these steps, new network engineers and administrators can progressively build their knowledge of Cisco ISE, from the basics of deployment to advanced configuration and maintenance.
